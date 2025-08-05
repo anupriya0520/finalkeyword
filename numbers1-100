@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        int one='a'/'a';
+        int hundred=(one<<6)+(one<<5)+(one<<2);
+        for(int i=one;i<=hundred;i++){
+            System.out.println(i);
+        }
+    }
+}
